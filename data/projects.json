@@ -1,0 +1,42 @@
+[
+  {
+    "id": "post-hit",
+    "name": "Post'hit",
+    "tech": ["TypeScript", "Next.js", "React"],
+    "description": "Boutique en ligne de posters personnalisables avec prévisualisation 3D.",
+    "github": "https://github.com/este0207/Post-hit",
+    "image": "/projects/post-hit.png"
+  },
+  {
+    "id": "macos-angular-portfolio",
+    "name": "MacOs Angular Portfolio",
+    "tech": ["Angular", "TypeScript", "CSS"],
+    "description": "Portfolio style macOS réalisé en Angular.",
+    "github": "https://github.com/este0207/MacOs-Angular-Portfolio",
+    "image": "/projects/macos-angular-portfolio.png"
+  },
+  {
+    "id": "pokedex-website",
+    "name": "Pokedex Website",
+    "tech": ["JavaScript", "HTML", "CSS"],
+    "description": "Site web Pokedex pour consulter des données de Pokémon.",
+    "github": "https://github.com/este0207/Pokedex-WebSite",
+    "image": "/projects/pokedex-website.png"
+  },
+  {
+    "id": "cliker-v2",
+    "name": "Cliker-V2",
+    "tech": ["JavaScript", "HTML", "CSS"],
+    "description": "Projet JS basique — Clicker game / interaction.",
+    "github": "https://github.com/este0207/Cliker-V2",
+    "image": "/projects/cliker-v2.png"
+  },
+  {
+    "id": "coffee-template",
+    "name": "Coffee-template",
+    "tech": ["HTML", "CSS"],
+    "description": "Site web responsive template pour café / landing page simple.",
+    "github": "https://github.com/este0207/Coffee-template",
+    "image": "/projects/coffee-template.png"
+  }
+]

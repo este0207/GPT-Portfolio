@@ -1,0 +1,6 @@
+{
+  "name": "Esteban",
+  "role": "Développeur Full Stack",
+  "bio": "Développeur web de 20 ans, passionné par la création de sites modernes et fonctionnels. Après un Bac+2 incluant une année en MMi et deux ans à l’école de programmation La Plateforme à Toulon, j’ai acquis des compétences solides en développement front-end et back-end. Curieux et rigoureux, je suis toujours à la recherche de nouveaux défis pour concevoir des solutions web performantes et sur mesure.",
+  "skills": ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Tailwind", "CSS", "HTML", "Docker", "ThreeJS","Framer"]
+}

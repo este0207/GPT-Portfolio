@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GPT-Portfolio
 
-## Getting Started
+Un portfolio interactif de développeur inspiré de ChatGPT.  
+Posez une question à l'assistant pour découvrir mes projets, mes compétences et mon parcours. Le design est moderne, épuré et inspiré du style Apple, avec animations fluides et expérience utilisateur premium.
 
-First, run the development server:
+## 🔥 Fonctionnalités
+
+- Chat interactif type ChatGPT pour découvrir les projets
+- Affichage dynamique des messages avec Markdown
+- Base de connaissances locale (`projects.json`, `faq.json`, `about.json`)
+- Animation d'ouverture du chat et des bulles messages
+- Mode responsive et design épuré inspiré d’Apple
+
+## 💻 Tech Stack
+
+- [Next.js](https://nextjs.org/) (App Router)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Markdown](https://github.com/remarkjs/react-markdown)
+
+## 🚀 Installation
+
+1. Cloner le repo :
+
+```bash
+git clone https://github.com/este0207/GPT-Portfolio.git
+```
+Installer les dépendances :
+
+```bash
+cd GPT-Portfolio
+npm install
+# ou
+yarn
+```
+Lancer le projet :
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+``` 
+Le portfolio sera accessible sur http://localhost:3000.
+## Structure du projet
+```bash
+/app
+  /api
+    /chat/route.ts
+  /components
+    ChatBox.tsx
+/data
+  projects.json
+  faq.json
+  about.json
+/lib
+  processMessage.ts
+  searchProject.ts
+``` 
+## Ajouter un projet
+Pour ajouter un projet à votre portfolio, éditez data/projects.json :
+
+```json
+[
+  {
+    "id": "react-dashboard",
+    "name": "React Analytics Dashboard",
+    "tech": ["React", "Tailwind", "Recharts"],
+    "description": "Un dashboard complet avec analytics en temps réel.",
+    "github": "https://github.com/tonpseudo/dashboard",
+    "image": "/projects/dashboard.png"
+  }
+]
 ```
+## Personnalisation
+Modifiez le design dans components/ChatBox.tsx pour ajuster les couleurs, animations et styles
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ajoutez des images de vos projets dans public/projects/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Complétez faq.json et about.json pour enrichir la base de connaissances

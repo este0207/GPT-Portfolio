@@ -1,0 +1,27 @@
+[
+    {
+        "q": "qui es tu",
+        "a": "Je suis un développeur passionné par la création d'expériences digitales modernes."
+    },
+    {
+        "q": "ton meilleur projet",
+        "a": "Probablement ma boutique Post'Hit, trés complete et design."
+    },
+    {
+        "q": "que sais tu faire",
+        "a": "Je maîtrise le développement full stack, notamment avec React, Next.js et Node.js."
+    },
+    {
+        "q": "technologies que tu utilises",
+        "a": "J'utilise principalement JavaScript, TypeScript, React, Next.js, Node.js, Tailwind CSS, HTML, CSS, ThreeJS et Framer."
+    },
+    {
+        "q": "parle moi de ton parcours",
+        "a": "J'ai commencé comme développeur front-end avant de me spécialiser en full stack."
+    },
+    {
+        "q": "comment te contacter",
+        "a": "Vous pouvez me contacter via mon email esteban.h0207@gmail.com."
+    }
+
+]
