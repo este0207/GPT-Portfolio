@@ -3,7 +3,7 @@
 Un portfolio interactif de développeur inspiré de ChatGPT.  
 Posez une question à l'assistant pour découvrir mes projets, mes compétences et mon parcours. Le design est moderne, épuré et inspiré du style Apple, avec animations fluides et expérience utilisateur premium.
 
-## 🔥 Fonctionnalités
+## Fonctionnalités
 
 - Chat interactif type ChatGPT pour découvrir les projets
 - Affichage dynamique des messages avec Markdown
@@ -11,7 +11,7 @@ Posez une question à l'assistant pour découvrir mes projets, mes compétences 
 - Animation d'ouverture du chat et des bulles messages
 - Mode responsive et design épuré inspiré d’Apple
 
-## 💻 Tech Stack
+## Tech Stack
 
 - [Next.js](https://nextjs.org/) (App Router)
 - [React](https://reactjs.org/)
@@ -20,7 +20,7 @@ Posez une question à l'assistant pour découvrir mes projets, mes compétences 
 - [Framer Motion](https://www.framer.com/motion/)
 - [React Markdown](https://github.com/remarkjs/react-markdown)
 
-## 🚀 Installation
+## Installation
 
 1. Cloner le repo :
 
